@@ -142,3 +142,12 @@
 .bottom-xs {
     align-items: flex-end;
 }
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+

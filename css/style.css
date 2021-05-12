@@ -1,25 +1,55 @@
-/* bedug */
+/* common */
 
+.fix-width {
+    min-width: 200px;
+}
 
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.opaco {
+    opacity: 50%;
+}
+
+/* menu a sinistra */
 
 .menu {
     min-height: calc(100vh - 100px);
     background-color: #000000;
-    
+    z-index: 9999999;
+    position: relative;
 }
+
+.logo {
+    height: 100px;
+    padding: 15px;
+    padding-right: 50px;
+}
+
+#logo {
+    padding: 10px;
+}
+
+.ricerca {
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.ricerca img {
+    width: 30px;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+
 
 .box-content {
     padding-top: 100px;
     overflow-x: hidden;
     overflow-y: auto;
     height: calc(100vh - 100px);
-}
-
-.content {
-    background-color: #141922;
-    min-height: calc(100vh - 100px);
-   
 }
 
 main header {
@@ -30,9 +60,21 @@ main header {
  z-index: 5000;
 }
 
+.bottone {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.content {
+    background-color: #141922;
+    min-height: calc(100vh - 100px);
+   
+}
+
+
 .menu-brani {
     height: 50px;
-    width: 50%;
+    width: 400px;
     margin: 0 auto;
     background-color: royalblue;
 }
