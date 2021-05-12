@@ -1,0 +1,52 @@
+/* bedug */
+
+
+
+
+.menu {
+    min-height: calc(100vh - 100px);
+    background-color: #000000;
+    
+}
+
+.box-content {
+    padding-top: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: calc(100vh - 100px);
+}
+
+.content {
+    background-color: #141922;
+    min-height: calc(100vh - 100px);
+   
+}
+
+main header {
+ height: 100px;
+ background-color: rgba(0, 0, 0, 0.5);
+ position: fixed;
+ width: 100%;
+ z-index: 5000;
+}
+
+.menu-brani {
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: royalblue;
+}
+
+.immagini {
+    background-color: red;
+    width: 200px;
+    height: 300px;
+}
+
+.box-footer {
+    min-height: 100px;
+    background-color: #282828;
+}
+
+
+
