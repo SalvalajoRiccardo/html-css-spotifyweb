@@ -47,11 +47,6 @@ a {
     
 }
 
-#logo {
-    filter: brightness(200%);
-}
-
-
 
 .ricerca {
     margin-bottom: 20px;
@@ -162,19 +157,37 @@ main header {
     padding: 5px;
 }
 
+
 .content {
     background-color: #141922;
     min-height: calc(100vh - 80px);
    
 }
 
-
+/* menu del corpo */
 .menu-brani {
     height: 50px;
-    width: 400px;
     margin: 0 auto;
     background-color: royalblue;
+    width: 100%;
 }
+
+.menu-brani li {
+    margin: 0 10px;
+    
+}
+
+.menu-brani ul {
+    
+    
+}
+
+.menu-brani a {
+    font-size: 12px;
+    color: white;
+}
+
+
 
 .immagini {
     background-color: red;
