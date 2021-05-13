@@ -31,6 +31,10 @@ a {
     text-transform: uppercase;
 }
 
+.white {
+    color: white;
+}
+
 /* menu a sinistra */
 
 .menu {
@@ -161,6 +165,7 @@ main header {
 .content {
     background-color: #141922;
     min-height: calc(100vh - 80px);
+    padding-left: 20px;
    
 }
 
@@ -168,7 +173,6 @@ main header {
 .menu-brani {
     height: 50px;
     margin: 0 auto;
-    background-color: royalblue;
     width: 100%;
 }
 
@@ -178,22 +182,40 @@ main header {
 }
 
 .menu-brani ul {
-    
+    justify-content: center;
+    max-width: 600px;
+    align-items: center;
+    flex-wrap: wrap;
     
 }
 
 .menu-brani a {
     font-size: 12px;
     color: white;
+    text-transform: uppercase;
 }
 
+/* corpo stesso */
 
+#recent {
+    color: white;
+    margin-top: 20px;
+}
 
 .immagini {
-    background-color: red;
-    width: 200px;
-    height: 300px;
+    max-width: 200px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-right: 5%;
+    
 }
+
+.immagini img {
+    width: 100%;
+}
+
+/* footer */
 
 footer {
     position: fixed;
