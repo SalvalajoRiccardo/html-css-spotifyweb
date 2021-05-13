@@ -6,8 +6,9 @@
 }
 
 .fix-height {
-    min-height: calc(100vh - 80px);
-    height: calc(100vh - 80px);
+    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
 }
 
 * {
@@ -33,18 +34,21 @@ a {
 /* menu a sinistra */
 
 .menu {
-    /* min-height: calc(100vh - 80px); */
     height: 100%;
-    z-index: 9999999;
-    position: relative;
     background-color: #000000;
     color: white;
     padding:15px 15px 0;
     line-height: 30px;
+    padding-bottom: 80px;
 }
 
 .logo {
     height: 80px;
+    
+}
+
+#logo {
+    filter: brightness(200%);
 }
 
 
@@ -138,15 +142,26 @@ main header {
  height: 80px;
  background-color: rgba(0, 0, 0, 0.5);
  position: fixed;
- width: 100%;
+ width: calc(100% - 200px) ;
  z-index: 5000;
+ right: 0;
+ top: 0;
 }
 
 .bottone {
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 25px;
+    top: 25px;
+   
 }
+
+.bottone a {
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
 .content {
     background-color: #141922;
     min-height: calc(100vh - 80px);
@@ -168,8 +183,11 @@ main header {
 }
 
 footer {
-    position: relative;
-    z-index: 99999999999;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
 }
 
 .box-footer {
