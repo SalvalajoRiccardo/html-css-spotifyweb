@@ -54,11 +54,17 @@ a {
     padding-bottom: 80px;
 }
 
+/* logo */
 .logo {
     height: 80px;
     
 }
 
+#logo-sotto {
+    display: none;
+    width: 100%;
+}
+/* ricerca */
 
 .ricerca {
     margin-bottom: 20px;
@@ -135,6 +141,31 @@ a {
     border-radius: 50%;
 }
 
+@media screen and (max-width:576px) {
+
+    .cont-menu{
+        min-width: 50px;
+        max-width: 50px;
+    }
+
+    .menu {
+        padding: 15px 10px 0;
+        padding-bottom: 80px;
+    }
+
+    .menu span, .menu h3, .menu ul, .menu hr {
+        display: none;
+    } 
+
+    #logo {
+        display: none;
+    }
+    
+    #logo-sotto {
+        display: inline-block;
+    }
+}
+
 
 /* corpo pagina */
 
@@ -155,11 +186,12 @@ main header {
  top: 0;
 }
 
+
 .bottone {
     position: absolute;
     right: 25px;
     top: 25px;
-   
+    
 }
 
 .bottone a {
@@ -170,14 +202,21 @@ main header {
 }
 
 
+
+@media screen and (max-width:576px) {
+    main header {
+        width:calc(100% - 50px) ;
+    }
+}
+
+/* menu del corpo */
+
 .content {
     background-color: #141922;
     min-height: calc(100vh - 80px);
     padding-left: 20px;
-   
+    
 }
-
-/* menu del corpo */
 .menu-brani {
     height: 50px;
     margin: 0 auto;
@@ -360,6 +399,25 @@ footer {
     align-items: center;
 }
 
+@media screen and (max-width:576px) {
+    .p-des, .cont-foot-sin {
+        max-width: 100px;
+        min-width: 100px;
+        
+    }
 
+    .button-player i {
+        margin: 0 8px;
+        font-size: 12px;
+    }
+    
+    .button-player i:nth-child(3) {
+        font-size: 20px;
+    }
+
+    #bar-brano {
+        width: 40%;
+    }
+}
 
 
