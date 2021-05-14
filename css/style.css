@@ -35,6 +35,10 @@ a {
     color: white;
 }
 
+
+.cerchio img {
+    border-radius: 50%;
+}
 /* menu a sinistra */
 
 .menu {
@@ -197,23 +201,47 @@ main header {
 
 /* corpo stesso */
 
-#recent {
+.titsec {
     color: white;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-.immagini {
+.titsec span {
+    font-size: 13px;
+}
+
+.cover {
     max-width: 200px;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     margin-right: 5%;
     
+    
 }
 
-.immagini img {
+.cover img {
     width: 100%;
 }
+
+.immagini {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    padding: 30%;
+    position: absolute;
+    display: flex;
+    font-size: 50px;
+}
+
+
 
 /* footer */
 
