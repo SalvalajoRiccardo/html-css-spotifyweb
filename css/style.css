@@ -217,6 +217,12 @@ main header {
     }
 }
 
+@media screen and (max-height:350px) {
+    main header {
+        display: none ;
+    }
+}
+
 /* menu del corpo */
 
 .content {
